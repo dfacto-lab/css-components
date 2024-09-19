@@ -105,7 +105,7 @@ export type BooleanIfStringBoolean<T> = T extends "true" | "false"
 export type VariantOptions<V> = {
   [Property in keyof V]?: BooleanIfStringBoolean<keyof V[Property]>;
 };
-
+//Todo: add array type to variant values, so they can combine together, ex: <Component margin={[top, bottom]} />
 /**
  * Returns a type object for compound variants.
  */
