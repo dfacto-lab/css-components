@@ -1,9 +1,9 @@
 node_modules
 coverage
 *.log
-dist
+# sdist
 .cache
-lib
+#lib
 !src/*
 !test/*
 .idea
